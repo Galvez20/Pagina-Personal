@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import Contador from './components/Contador'
+import Inicio from './components/Inicio';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Inicio/>
+      <Contador/>
     </div>
   );
 }
