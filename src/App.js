@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Contador from './components/Contador'
+import Contador from './components/Contador';
 import Inicio from './components/Inicio';
 
 function App() {
